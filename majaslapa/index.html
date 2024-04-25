@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Siltās mājas</title>
+  <link rel="stylesheet" href="./css/styles.css"> <!--importē stila failu -->
+
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#home">Sākums</a></li>
+        <li><a href="#animals">Dzīvnieki</a></li>  <!--Pogas pievienojam-->
+        <li><a href="#contact">Adoptē</a></li>
+        <li><a href="#learn">Info</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div id="home" class="home-image">    <!-- Sākumlapa + bilde-->
+    <div class="home-text">
+      <h1>Siltās mājas</h1>
+      <p>Lielākā patversme latvijā!</p>
+    </div> 
+  </div>
+
+  <div id="animals" class="gallery-container">
+    <div class="main-heading">
+      <h2>Mūsu dzīvnieciņi</h2>
+
+    </div>
+    <div class="gallery-row">
+      <div class="gallery-column">
+        <div class="img-container">
+          <img src="./images/dog1.jpg" alt="Poga">
+        </div>
+      </div>
+      <div class="gallery-column">
+        <div class="img-container">
+          <img src="./images/cat1.jpg" alt="Lote">
+        </div>
+      </div>
+      <div class="gallery-column">
+        <div class="img-container">
+          <img src="./images/dog2.jpg" alt="Katrina">
+        </div>
+      </div>
+      <div class="gallery-column">
+        <div class="img-container">
+          <img src="./images/cat2.jpg" alt="maksis">
+        </div>
+      </div>
+      <div class="gallery-column">
+        <div class="img-container">
+          <img src="./images/dog3.jpg" alt="barnijs">
+        </div>
+      </div>
+      <div class="gallery-column">
+        <div class="img-container">
+          <img src="./images/cat3.jpg" alt="roze">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="contact" class="contact-background">
+
+    <h2 class="main-heading">Adoptēt</h2>
+
+    <div class="contact-container">
+      <h2 class="sub-heading">Interesē adoptēt suni vai kaķi? Sazinies ar mums!</h2>
+      <img class="paw-icon" src="./images/paw_icon.png" alt="kepa">
+      <form action="" method="post">
+        <input class="rsvp" type="text" value="Vārds">
+        <input class="rsvp" type="text" value="Uzvārds">
+        <input class="rsvp" type="text" value="E-pasts">
+        <input class="rsvp" type="text" value="Telefona numurs">
+        <div class="submit">
+          <input type="submit" value="Sūtīt">
+        </div>
+      </form>
+      <br>
+      <div class="img-container">
+        <img src="./images/in.jpg" alt="Poga">
+      </div>
+
+    </div>
+  </div>
+  <h2 id="learn" class="main-heading">Informācija</h2>
+  <div class="video-container">
+
+    <h2 class="sub-heading">Kā parūpēties par savu dzīvnieciņu?</h2>
+    <img class="paw-icon" src="./images/paw_icon.png" alt="pawprint">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/oNfIbv7iD9w" title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen></iframe>
+    <hr>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/gQ4gLeHJZPw" title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen></iframe>
+  </div>
+  <h2 class="patversmes">Citas patversmes</h2>
+  <br>
+  <div class="img-container1">
+    <a href="url1" target="https://ulubele.org/"><img src="./images/ulubele.jpg" alt="Poga"></a>
+    <a href="url2" target="https://patversme.lv/"><img src="./images/PAT.jpg" alt="Another Dog"></a>
+  </div>
+  <div id="footer">
+    www.siltāsmājas.lv &nbsp;|&nbsp; &copy; 2024
+  </div>
+</body>
+
+<script src="script.js"></script>
+
+</html>
